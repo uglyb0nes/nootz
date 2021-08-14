@@ -10,8 +10,6 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributors)
-* [Tests](#tests)
 * [Questions](#questions)
 * [License](#license)
 
@@ -23,11 +21,6 @@ Clone the repository to your local machine, install the required packages, and r
 
 ## Usage
 Navigate to https://n00tz.herokuapp.com
-
-## Contributors
-
-
-## Tests
 
 
 ## Questions
