@@ -1,5 +1,5 @@
 const fs = require('fs');
-const noot = require('../db/db.json');
+const note = require('../db/db.json');
 const uniqid = require('uniqid');
 
 module.exports = (app) => {
@@ -10,17 +10,17 @@ module.exports = (app) => {
     });
 
     app.post('/api/notes', (req, res) => {
-        let nootz = JSON.parse(fs.readFileSync('db/db.json'));
-        res.JSON(nootz);
+        let notes = JSON.parse(fs.readFileSync('db/db.json'));
+        res.JSON(notes);
 
-        const newt = {
+        const newNote = {
             title: req.body.title,
             text: req.body.text,
             id: uniqid(),
         };
 
-        nootz.push(newt);
-        fs.writeFileSync('./db/db.json', JSON.stringify(nootz));
-        res.JSON(nootz);
+        nootz.push(newNote);
+        fs.writeFileSync('./db/db.json', JSON.stringify(notes));
+        res.JSON(notes);
     });
 };
