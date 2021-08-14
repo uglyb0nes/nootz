@@ -3,6 +3,9 @@
 
 [![License](https://img.shields.io/badge/License-Unlicense%20-blue.svg)](https://opensource.org/licenses/Unlicense)
 
+![Screenshot](https://github.com/uglyb0nes/nootz/blob/master/public/assets/images/noot.png)
+![Screenshot](https://github.com/uglyb0nes/nootz/blob/master/public/assets/images/nootz.png)
+
 ### [Live on Heroku](https://n00tz.herokuapp.com)
 
 ## Table of Contents:
